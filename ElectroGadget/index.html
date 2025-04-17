@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElectroGadget | Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="main.js"></script>
+</head>
+<header>
+  <div class="container header-flex">
+    <h1 class="site-name">ElectroGadget</h1>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      
+      </ul>
+    </nav>
+
+    <div class="cart-icon" id="cart-icon">
+      <span class="cart-text">Cart</span>
+      <span class="cart-count" id="cart-count">0</span>
+      </div>
+</div>
+  
+  </div>
+</header>
+<body>
+  
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Your One-Stop Shop for Electronics</h2>
+      <p>Find the best deals on chargers, mobiles, laptops, accessories, and more!</p>
+      <a href="products.html" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="product-categories" style="text-align: center;">
+    <div class="container">
+      <h2 class="section-title">Shop by Category</h2>
+      <div class="product-grid">
+       <div class="product-card">
+        <a href="products.html"><img src="images/phone.gif" alt="Mobile Phones"></a>
+        <h3>Mobiles</h3>
+          <p>Latest smartphones from top brands.</p>
+        </div>
+        <div class="product-card">
+          <a href="products.html"><img src="images/laptop.gif" alt="Laptops"></a>
+          <h3>Laptops</h3>
+          <p>Powerful laptops for work and play.</p>
+        </div>
+        <div class="product-card">
+          <a href="products.html"><img src="images/acsrs.gif" alt="Accessories"></a>
+          <h3>Accessories</h3>
+          <p>Chargers, cases, headphones, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-products" style="text-align: center;">
+    <div class="container">
+      <h2 class="section-title">Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+  <span class="highlight-badge">🔥 Best Seller</span>
+  <img src="images/airpods.gif" alt="Airpods Pro">
+  <h3>Airpods Pro</h3>
+  <p>Active noise cancellation, adaptive EQ, and rich, immersive sound — all packed into a compact design.</p>
+  <p class="product-price">£199.99</p>
+  <button class="add-to-cart-btn" data-id="1" data-name="Airpods Pro" data-price="199.99" data-img="images/airpods.gif">Add to Cart</button>
+</div>
+          
+        <div class="product-card">
+  <span class="highlight-badge">🔥 Best Seller</span>
+  <img src="images/watch.gif" alt="Apple Watch Ultra 2">
+  <h3>Apple Watch Ultra 2</h3>
+  <p>Stay connected with fitness tracking features.</p>
+  <p class="product-price">£249.99</p>
+  <button class="add-to-cart-btn" data-id="2" data-name="Apple Watch Ultra 2" data-price="149.99" data-img="images/watch.gif">Add to Cart</button>
+</div>
+        <div class="product-card">
+  <span class="highlight-badge">🔥 Best Seller</span>
+  <img src="images/tab.gif" alt="MacBook Pro">
+  <h3>MacBook Pro</h3>
+  <p>Lightweight design with powerful performance.</p>
+  <p class="product-price">£1299.99</p>
+  <button class="add-to-cart-btn" data-id="3" data-name="MacBook Pro" data-price="299.99" data-img="images/tab.gif">Add to Cart</button>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" style="text-align: center;">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us?</h2>
+      <div class="feature-list">
+        <div class="feature">
+          <h3>⭐ Top Brands</h3>
+          <p>We stock products from leading global brands.</p>
+        </div>
+        <div class="feature">
+          <h3>🚚 Fast Delivery</h3>
+          <p>Quick and reliable shipping to your doorstep.</p>
+        </div>
+        <div class="feature">
+          <h3>🔒 Secure Payments</h3>
+          <p>Multiple payment options with strong encryption.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating Dark Mode Toggle -->
+<div class="floating-dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode">
+  <span class="dark-mode-icon">🌙</span>
+  <span class="light-mode-icon">☀️</span>
+</div>
+</body>
+<footer>
+  <div class="container">
+    <p>&copy; 2025 ElectroGadget. All rights reserved.</p>
+    <p>Email: support@electrogadget.com | Phone: +44 123 456 7890</p>
+    <p>123 Tech Street, Manchester, UK</p>
+  </div>
+</footer>
+</html>

@@ -1,0 +1,83 @@
+/* Hero Section */
+.hero {
+  background: url('../images/banner.jpg') center/cover no-repeat;
+  height: 77vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.3); /* Adjust transparency here */
+  padding: 56px;
+  border-radius: 25px;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+/* Section Titles */
+.section-title,
+.features h2,
+.product-categories h2,
+.featured-products h2 {
+  color: #111827;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 3px solid #2563eb;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+/* Product and Feature Grids */
+.product-grid,
+.feature-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+/* Product and Feature Cards */
+.product-card,
+.feature {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover,
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  background-color: #e0f2fe;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 40px 0;
+  }
+}

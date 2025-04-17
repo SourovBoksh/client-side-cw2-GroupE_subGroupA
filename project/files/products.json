@@ -1,0 +1,1237 @@
+{
+    "categories": [
+        "Tablet",
+        "Smartwatch",
+        "Earbuds",
+        "Smartphones",
+        "Laptops",
+        "Accessories"
+    ],
+    "products": [
+        {
+            "name": "Apple iPad Air",
+            "price": 599,
+            "category": "Tablet",
+            "image": "images/ipad_air.jpg",
+            "id": 1
+        },
+        {
+            "name": "Samsung Galaxy Tab S8",
+            "price": 699,
+            "category": "Tablet",
+            "image": "images/galaxy_tab_s8.jpg",
+            "id": 2
+        },
+        {
+            "name": "Microsoft Surface Pro 9",
+            "price": 999,
+            "category": "Tablet",
+            "image": "images/surface_pro_9.jpg",
+            "id": 3
+        },
+        {
+            "name": "Lenovo Tab P11 Pro",
+            "price": 499,
+            "category": "Tablet",
+            "image": "images/lenovo_tab_p11.jpg",
+            "id": 4
+        },
+        {
+            "name": "Apple Watch Series 8",
+            "price": 399,
+            "category": "Smartwatch",
+            "image": "images/apple_watch_s8.jpg",
+            "id": 5
+        },
+        {
+            "name": "Samsung Galaxy Watch 5",
+            "price": 329,
+            "category": "Smartwatch",
+            "image": "images/galaxy_watch_5.jpg",
+            "id": 6
+        },
+        {
+            "name": "Garmin Venu 2 Plus",
+            "price": 449,
+            "category": "Smartwatch",
+            "image": "images/garmin_venu_2.jpg",
+            "id": 7
+        },
+        {
+            "name": "Fossil Gen 6",
+            "price": 299,
+            "category": "Smartwatch",
+            "image": "images/fossil_gen_6.jpg",
+            "id": 8
+        },
+        {
+            "name": "Sony WF-1000XM5",
+            "price": 299,
+            "category": "Earbuds",
+            "image": "images/sony_wf_1000xm5.jpg",
+            "id": 9
+        },
+        {
+            "name": "Apple AirPods Pro 2",
+            "price": 249,
+            "category": "Earbuds",
+            "image": "images/airpods_pro_2.jpg",
+            "id": 10
+        },
+        {
+            "name": "Samsung Galaxy Buds 2 Pro",
+            "price": 199,
+            "category": "Earbuds",
+            "image": "images/galaxy_buds_2_pro.jpg",
+            "id": 11
+        },
+        {
+            "name": "Bose QuietComfort Earbuds II",
+            "price": 299,
+            "category": "Earbuds",
+            "image": "images/bose_qc_earbuds_2.jpg",
+            "id": 12
+        },
+        {
+            "name": "iPhone 14 Pro",
+            "price": 999,
+            "category": "Smartphones",
+            "image": "images/iphone_14_pro.jpg",
+            "id": 13
+        },
+        {
+            "name": "Samsung Galaxy S23 Ultra",
+            "price": 1199,
+            "category": "Smartphones",
+            "image": "images/galaxy_s23_ultra.jpg",
+            "id": 14
+        },
+        {
+            "name": "Google Pixel 7 Pro",
+            "price": 899,
+            "category": "Smartphones",
+            "image": "images/pixel_7_pro.jpg",
+            "id": 15
+        },
+        {
+            "name": "OnePlus 11",
+            "price": 799,
+            "category": "Smartphones",
+            "image": "images/oneplus_11.jpg",
+            "id": 16
+        },
+        {
+            "name": "MacBook Pro M2",
+            "price": 1999,
+            "category": "Laptops",
+            "image": "images/macbook_pro_m2.jpg",
+            "id": 17
+        },
+        {
+            "name": "Dell XPS 15",
+            "price": 1499,
+            "category": "Laptops",
+            "image": "images/dell_xps_15.jpg",
+            "id": 18
+        },
+        {
+            "name": "HP Spectre x360",
+            "price": 1399,
+            "category": "Laptops",
+            "image": "images/hp_spectre_x360.jpg",
+            "id": 19
+        },
+        {
+            "name": "Lenovo ThinkPad X1 Carbon",
+            "price": 1599,
+            "category": "Laptops",
+            "image": "images/thinkpad_x1_carbon.jpg",
+            "id": 20
+        },
+        {
+            "name": "Anker 20W Fast Charger",
+            "price": 29,
+            "category": "Accessories",
+            "image": "images/anker_fast_charger.jpg",
+            "id": 21
+        },
+        {
+            "name": "Logitech MX Master 3 Mouse",
+            "price": 99,
+            "category": "Accessories",
+            "image": "images/logitech_mx_master_3.jpg",
+            "id": 22
+        },
+        {
+            "name": "Razer BlackShark V2 Headset",
+            "price": 129,
+            "category": "Accessories",
+            "image": "images/razer_blackshark_v2.jpg",
+            "id": 23
+        },
+        {
+            "name": "Samsung 1TB Portable SSD",
+            "price": 149,
+            "category": "Accessories",
+            "image": "images/samsung_ssd_1tb.jpg",
+            "id": 24
+        },
+        {
+            "name": "iPhone 14 Pro Max",
+            "price": 1099,
+            "category": "Smartphones",
+            "image": "images/iphone_14_pro_max.jpg",
+            "id": 25
+        },
+        {
+            "name": "Samsung Galaxy S23 Ultra",
+            "price": 1199,
+            "category": "Smartphones",
+            "image": "images/galaxy_s23_ultra.jpg",
+            "id": 26
+        },
+        {
+            "name": "Google Pixel 7 Pro",
+            "price": 899,
+            "category": "Smartphones",
+            "image": "images/pixel_7_pro.jpg",
+            "id": 27
+        },
+        {
+            "name": "OnePlus 11",
+            "price": 799,
+            "category": "Smartphones",
+            "image": "images/oneplus_11.jpg",
+            "id": 28
+        },
+        {
+            "name": "Xiaomi 13 Pro",
+            "price": 749,
+            "category": "Smartphones",
+            "image": "images/xiaomi_13_pro.jpg",
+            "id": 29
+        },
+        {
+            "name": "Sony Xperia 5 IV",
+            "price": 899,
+            "category": "Smartphones",
+            "image": "images/sony_xperia_5.jpg",
+            "id": 30
+        },
+        {
+            "name": "iPhone 13",
+            "price": 799,
+            "category": "Smartphones",
+            "image": "images/iphone_13.jpg",
+            "id": 31
+        },
+        {
+            "name": "Samsung Galaxy S22+",
+            "price": 999,
+            "category": "Smartphones",
+            "image": "images/galaxy_s22_plus.jpg",
+            "id": 32
+        },
+        {
+            "name": "Google Pixel 6a",
+            "price": 449,
+            "category": "Smartphones",
+            "image": "images/pixel_6a.jpg",
+            "id": 33
+        },
+        {
+            "name": "OnePlus 10 Pro",
+            "price": 699,
+            "category": "Smartphones",
+            "image": "images/oneplus_10_pro.jpg",
+            "id": 34
+        },
+        {
+            "name": "Xiaomi Redmi Note 12",
+            "price": 399,
+            "category": "Smartphones",
+            "image": "images/redmi_note_12.jpg",
+            "id": 35
+        },
+        {
+            "name": "Samsung Galaxy A53",
+            "price": 449,
+            "category": "Smartphones",
+            "image": "images/galaxy_a53.jpg",
+            "id": 36
+        },
+        {
+            "name": "Motorola Edge 30 Ultra",
+            "price": 899,
+            "category": "Smartphones",
+            "image": "images/moto_edge_30_ultra.jpg",
+            "id": 37
+        },
+        {
+            "name": "Realme GT 2 Pro",
+            "price": 649,
+            "category": "Smartphones",
+            "image": "images/realme_gt2_pro.jpg",
+            "id": 38
+        },
+        {
+            "name": "Vivo X80 Pro",
+            "price": 899,
+            "category": "Smartphones",
+            "image": "images/vivo_x80_pro.jpg",
+            "id": 39
+        },
+        {
+            "name": "Asus ROG Phone 6",
+            "price": 1099,
+            "category": "Smartphones",
+            "image": "images/rog_phone_6.jpg",
+            "id": 40
+        },
+        {
+            "name": "Honor Magic 4 Pro",
+            "price": 799,
+            "category": "Smartphones",
+            "image": "images/honor_magic_4.jpg",
+            "id": 41
+        },
+        {
+            "name": "Huawei P50 Pro",
+            "price": 899,
+            "category": "Smartphones",
+            "image": "images/huawei_p50_pro.jpg",
+            "id": 42
+        },
+        {
+            "name": "Oppo Find X5 Pro",
+            "price": 999,
+            "category": "Smartphones",
+            "image": "images/oppo_find_x5_pro.jpg",
+            "id": 43
+        },
+        {
+            "name": "Nokia X30 5G",
+            "price": 599,
+            "category": "Smartphones",
+            "image": "images/nokia_x30_5g.jpg",
+            "id": 44
+        },
+        {
+            "name": "Samsung Galaxy Z Fold 4",
+            "price": 1799,
+            "category": "Smartphones",
+            "image": "images/galaxy_z_fold_4.jpg",
+            "id": 45
+        },
+        {
+            "name": "iPhone SE (2022)",
+            "price": 429,
+            "category": "Smartphones",
+            "image": "images/iphone_se_2022.jpg",
+            "id": 46
+        },
+        {
+            "name": "Google Pixel 5",
+            "price": 499,
+            "category": "Smartphones",
+            "image": "images/pixel_5.jpg",
+            "id": 47
+        },
+        {
+            "name": "Motorola Razr 2022",
+            "price": 999,
+            "category": "Smartphones",
+            "image": "images/moto_razr_2022.jpg",
+            "id": 48
+        },
+        {
+            "name": "Samsung Galaxy Note 20 Ultra",
+            "price": 1199,
+            "category": "Smartphones",
+            "image": "images/galaxy_note_20_ultra.jpg",
+            "id": 49
+        },
+        {
+            "name": "Oppo Reno 8 Pro",
+            "price": 599,
+            "category": "Smartphones",
+            "image": "images/oppo_reno_8_pro.jpg",
+            "id": 50
+        },
+        {
+            "name": "Vivo V23 5G",
+            "price": 499,
+            "category": "Smartphones",
+            "image": "images/vivo_v23_5g.jpg",
+            "id": 51
+        },
+        {
+            "name": "Realme 9 Pro+",
+            "price": 399,
+            "category": "Smartphones",
+            "image": "images/realme_9_pro_plus.jpg",
+            "id": 52
+        },
+        {
+            "name": "Sony Xperia 1 IV",
+            "price": 1199,
+            "category": "Smartphones",
+            "image": "images/sony_xperia_1_iv.jpg",
+            "id": 53
+        },
+        {
+            "name": "iPhone 12 Mini",
+            "price": 649,
+            "category": "Smartphones",
+            "image": "images/iphone_12_mini.jpg",
+            "id": 54
+        },
+        {
+            "name": "Samsung Galaxy Z Flip 4",
+            "price": 999,
+            "category": "Smartphones",
+            "image": "images/galaxy_z_flip_4.jpg",
+            "id": 55
+        },
+        {
+            "name": "Apple iPad Air",
+            "price": 599,
+            "category": "Tablet",
+            "image": "images/ipad_air.jpg",
+            "id": 56
+        },
+        {
+            "name": "Samsung Galaxy Tab S8",
+            "price": 699,
+            "category": "Tablet",
+            "image": "images/galaxy_tab_s8.jpg",
+            "id": 57
+        },
+        {
+            "name": "Microsoft Surface Pro 9",
+            "price": 999,
+            "category": "Tablet",
+            "image": "images/surface_pro_9.jpg",
+            "id": 58
+        },
+        {
+            "name": "Lenovo Tab P11 Pro",
+            "price": 499,
+            "category": "Tablet",
+            "image": "images/lenovo_tab_p11.jpg",
+            "id": 59
+        },
+        {
+            "name": "Amazon Fire HD 10",
+            "price": 149,
+            "category": "Tablet",
+            "image": "images/amazon_fire_hd_10.jpg",
+            "id": 60
+        },
+        {
+            "name": "Huawei MatePad Pro",
+            "price": 799,
+            "category": "Tablet",
+            "image": "images/huawei_matepad_pro.jpg",
+            "id": 61
+        },
+        {
+            "name": "Asus ZenPad 10",
+            "price": 349,
+            "category": "Tablet",
+            "image": "images/asus_zenpad_10.jpg",
+            "id": 62
+        },
+        {
+            "name": "Google Pixel Tablet",
+            "price": 649,
+            "category": "Tablet",
+            "image": "images/pixel_tablet.jpg",
+            "id": 63
+        },
+        {
+            "name": "Samsung Galaxy Tab A8",
+            "price": 249,
+            "category": "Tablet",
+            "image": "images/galaxy_tab_a8.jpg",
+            "id": 64
+        },
+        {
+            "name": "Apple iPad Pro M2",
+            "price": 1199,
+            "category": "Tablet",
+            "image": "images/ipad_pro_m2.jpg",
+            "id": 65
+        },
+        {
+            "name": "Xiaomi Pad 5",
+            "price": 499,
+            "category": "Tablet",
+            "image": "images/xiaomi_pad_5.jpg",
+            "id": 66
+        },
+        {
+            "name": "Dell Latitude 7220 Rugged Tablet",
+            "price": 1399,
+            "category": "Tablet",
+            "image": "images/dell_latitude_7220.jpg",
+            "id": 67
+        },
+        {
+            "name": "HP Elite x2 G8",
+            "price": 1199,
+            "category": "Tablet",
+            "image": "images/hp_elite_x2_g8.jpg",
+            "id": 68
+        },
+        {
+            "name": "Microsoft Surface Go 3",
+            "price": 599,
+            "category": "Tablet",
+            "image": "images/surface_go_3.jpg",
+            "id": 69
+        },
+        {
+            "name": "Lenovo Yoga Tab 13",
+            "price": 799,
+            "category": "Tablet",
+            "image": "images/lenovo_yoga_tab_13.jpg",
+            "id": 70
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 FE",
+            "price": 649,
+            "category": "Tablet",
+            "image": "images/galaxy_tab_s7_fe.jpg",
+            "id": 71
+        },
+        {
+            "name": "Alcatel 1T 10 Tablet",
+            "price": 159,
+            "category": "Tablet",
+            "image": "images/alcatel_1t_10.jpg",
+            "id": 72
+        },
+        {
+            "name": "Realme Pad X",
+            "price": 399,
+            "category": "Tablet",
+            "image": "images/realme_pad_x.jpg",
+            "id": 73
+        },
+        {
+            "name": "Oppo Pad Air",
+            "price": 299,
+            "category": "Tablet",
+            "image": "images/oppo_pad_air.jpg",
+            "id": 74
+        },
+        {
+            "name": "Sony Xperia Tablet Z4",
+            "price": 699,
+            "category": "Tablet",
+            "image": "images/sony_xperia_tablet_z4.jpg",
+            "id": 75
+        },
+        {
+            "name": "Apple MacBook Pro M2",
+            "price": 1999,
+            "category": "Laptops",
+            "image": "images/macbook_pro_m2.jpg",
+            "id": 76
+        },
+        {
+            "name": "Dell XPS 15",
+            "price": 1499,
+            "category": "Laptops",
+            "image": "images/dell_xps_15.jpg",
+            "id": 77
+        },
+        {
+            "name": "HP Spectre x360",
+            "price": 1399,
+            "category": "Laptops",
+            "image": "images/hp_spectre_x360.jpg",
+            "id": 78
+        },
+        {
+            "name": "Lenovo ThinkPad X1 Carbon",
+            "price": 1599,
+            "category": "Laptops",
+            "image": "images/thinkpad_x1_carbon.jpg",
+            "id": 79
+        },
+        {
+            "name": "Asus ROG Strix G15",
+            "price": 1799,
+            "category": "Laptops",
+            "image": "images/asus_rog_strix_g15.jpg",
+            "id": 80
+        },
+        {
+            "name": "Microsoft Surface Laptop Studio",
+            "price": 1799,
+            "category": "Laptops",
+            "image": "images/surface_laptop_studio.jpg",
+            "id": 81
+        },
+        {
+            "name": "Acer Swift 3",
+            "price": 749,
+            "category": "Laptops",
+            "image": "images/acer_swift_3.jpg",
+            "id": 82
+        },
+        {
+            "name": "Samsung Galaxy Book 3 Pro",
+            "price": 1299,
+            "category": "Laptops",
+            "image": "images/samsung_galaxy_book_3.jpg",
+            "id": 83
+        },
+        {
+            "name": "Razer Blade 15",
+            "price": 2199,
+            "category": "Laptops",
+            "image": "images/razer_blade_15.jpg",
+            "id": 84
+        },
+        {
+            "name": "MSI GE76 Raider",
+            "price": 2499,
+            "category": "Laptops",
+            "image": "images/msi_ge76_raider.jpg",
+            "id": 85
+        },
+        {
+            "name": "Alienware m15 R7",
+            "price": 2799,
+            "category": "Laptops",
+            "image": "images/alienware_m15_r7.jpg",
+            "id": 86
+        },
+        {
+            "name": "LG Gram 17",
+            "price": 1499,
+            "category": "Laptops",
+            "image": "images/lg_gram_17.jpg",
+            "id": 87
+        },
+        {
+            "name": "Apple MacBook Air M2",
+            "price": 1199,
+            "category": "Laptops",
+            "image": "images/macbook_air_m2.jpg",
+            "id": 88
+        },
+        {
+            "name": "HP Omen 16",
+            "price": 1699,
+            "category": "Laptops",
+            "image": "images/hp_omen_16.jpg",
+            "id": 89
+        },
+        {
+            "name": "Dell Inspiron 16 Plus",
+            "price": 999,
+            "category": "Laptops",
+            "image": "images/dell_inspiron_16_plus.jpg",
+            "id": 90
+        },
+        {
+            "name": "Asus TUF Gaming F15",
+            "price": 1299,
+            "category": "Laptops",
+            "image": "images/asus_tuf_gaming_f15.jpg",
+            "id": 91
+        },
+        {
+            "name": "Microsoft Surface Pro 9",
+            "price": 999,
+            "category": "Laptops",
+            "image": "images/microsoft_surface_pro_9.jpg",
+            "id": 92
+        },
+        {
+            "name": "Lenovo Legion 5 Pro",
+            "price": 1499,
+            "category": "Laptops",
+            "image": "images/lenovo_legion_5_pro.jpg",
+            "id": 93
+        },
+        {
+            "name": "Acer Nitro 5",
+            "price": 899,
+            "category": "Laptops",
+            "image": "images/acer_nitro_5.jpg",
+            "id": 94
+        },
+        {
+            "name": "Samsung Galaxy Chromebook 2",
+            "price": 649,
+            "category": "Laptops",
+            "image": "images/samsung_galaxy_chromebook_2.jpg",
+            "id": 95
+        },
+        {
+            "name": "Apple MacBook Pro 16 M2",
+            "price": 2499,
+            "category": "Laptops",
+            "image": "images/macbook_pro_16_m2.jpg",
+            "id": 96
+        },
+        {
+            "name": "HP Pavilion 15",
+            "price": 699,
+            "category": "Laptops",
+            "image": "images/hp_pavilion_15.jpg",
+            "id": 97
+        },
+        {
+            "name": "Dell G15 Gaming Laptop",
+            "price": 1399,
+            "category": "Laptops",
+            "image": "images/dell_g15_gaming.jpg",
+            "id": 98
+        },
+        {
+            "name": "Lenovo Yoga 9i",
+            "price": 1399,
+            "category": "Laptops",
+            "image": "images/lenovo_yoga_9i.jpg",
+            "id": 99
+        },
+        {
+            "name": "MSI Stealth 15M",
+            "price": 1599,
+            "category": "Laptops",
+            "image": "images/msi_stealth_15m.jpg",
+            "id": 100
+        },
+        {
+            "name": "Asus ZenBook Duo 14",
+            "price": 1499,
+            "category": "Laptops",
+            "image": "images/asus_zenbook_duo_14.jpg",
+            "id": 101
+        },
+        {
+            "name": "Samsung Notebook 9 Pro",
+            "price": 1299,
+            "category": "Laptops",
+            "image": "images/samsung_notebook_9_pro.jpg",
+            "id": 102
+        },
+        {
+            "name": "Acer Predator Helios 300",
+            "price": 1699,
+            "category": "Laptops",
+            "image": "images/acer_predator_helios_300.jpg",
+            "id": 103
+        },
+        {
+            "name": "HP Chromebook x360",
+            "price": 599,
+            "category": "Laptops",
+            "image": "images/hp_chromebook_x360.jpg",
+            "id": 104
+        },
+        {
+            "name": "Lenovo IdeaPad 5 Pro",
+            "price": 999,
+            "category": "Laptops",
+            "image": "images/lenovo_ideapad_5_pro.jpg",
+            "id": 105
+        },
+        {
+            "name": "Razer Blade Stealth 13",
+            "price": 1799,
+            "category": "Laptops",
+            "image": "images/razer_blade_stealth_13.jpg",
+            "id": 106
+        },
+        {
+            "name": "Apple AirPods Pro 2",
+            "price": 249,
+            "category": "Earbuds",
+            "image": "images/airpods_pro_2.jpg",
+            "id": 107
+        },
+        {
+            "name": "Samsung Galaxy Buds 2 Pro",
+            "price": 199,
+            "category": "Earbuds",
+            "image": "images/galaxy_buds_2_pro.jpg",
+            "id": 108
+        },
+        {
+            "name": "Sony WF-1000XM5",
+            "price": 299,
+            "category": "Earbuds",
+            "image": "images/sony_wf_1000xm5.jpg",
+            "id": 109
+        },
+        {
+            "name": "Bose QuietComfort Earbuds II",
+            "price": 299,
+            "category": "Earbuds",
+            "image": "images/bose_qc_earbuds_2.jpg",
+            "id": 110
+        },
+        {
+            "name": "Jabra Elite 7 Pro",
+            "price": 229,
+            "category": "Earbuds",
+            "image": "images/jabra_elite_7_pro.jpg",
+            "id": 111
+        },
+        {
+            "name": "Beats Fit Pro",
+            "price": 199,
+            "category": "Earbuds",
+            "image": "images/beats_fit_pro.jpg",
+            "id": 112
+        },
+        {
+            "name": "Google Pixel Buds Pro",
+            "price": 199,
+            "category": "Earbuds",
+            "image": "images/pixel_buds_pro.jpg",
+            "id": 113
+        },
+        {
+            "name": "Anker Soundcore Liberty 3 Pro",
+            "price": 169,
+            "category": "Earbuds",
+            "image": "images/anker_liberty_3_pro.jpg",
+            "id": 114
+        },
+        {
+            "name": "Sennheiser Momentum True Wireless 3",
+            "price": 299,
+            "category": "Earbuds",
+            "image": "images/sennheiser_momentum_tw3.jpg",
+            "id": 115
+        },
+        {
+            "name": "Shure Aonic Free",
+            "price": 199,
+            "category": "Earbuds",
+            "image": "images/shure_aonic_free.jpg",
+            "id": 116
+        },
+        {
+            "name": "Soundpeats Air3 Deluxe",
+            "price": 49,
+            "category": "Earbuds",
+            "image": "images/soundpeats_air3_deluxe.jpg",
+            "id": 117
+        },
+        {
+            "name": "Edifier NeoBuds Pro",
+            "price": 129,
+            "category": "Earbuds",
+            "image": "images/edifier_neobuds_pro.jpg",
+            "id": 118
+        },
+        {
+            "name": "Razer Hammerhead True Wireless",
+            "price": 149,
+            "category": "Earbuds",
+            "image": "images/razer_hammerhead_tw.jpg",
+            "id": 119
+        },
+        {
+            "name": "Nothing Ear (2)",
+            "price": 149,
+            "category": "Earbuds",
+            "image": "images/nothing_ear_2.jpg",
+            "id": 120
+        },
+        {
+            "name": "Marshall Motif A.N.C.",
+            "price": 179,
+            "category": "Earbuds",
+            "image": "images/marshall_motif_anc.jpg",
+            "id": 121
+        },
+        {
+            "name": "JBL Live Pro 2",
+            "price": 149,
+            "category": "Earbuds",
+            "image": "images/jbl_live_pro_2.jpg",
+            "id": 122
+        },
+        {
+            "name": "LG Tone Free FP9",
+            "price": 179,
+            "category": "Earbuds",
+            "image": "images/lg_tone_free_fp9.jpg",
+            "id": 123
+        },
+        {
+            "name": "Huawei FreeBuds Pro 2",
+            "price": 199,
+            "category": "Earbuds",
+            "image": "images/huawei_freebuds_pro_2.jpg",
+            "id": 124
+        },
+        {
+            "name": "Oppo Enco X2",
+            "price": 179,
+            "category": "Earbuds",
+            "image": "images/oppo_enco_x2.jpg",
+            "id": 125
+        },
+        {
+            "name": "Skullcandy Indy ANC",
+            "price": 129,
+            "category": "Earbuds",
+            "image": "images/skullcandy_indy_anc.jpg",
+            "id": 126
+        },
+        {
+            "name": "Apple Watch Series 8",
+            "price": 399,
+            "category": "Smartwatch",
+            "image": "images/apple_watch_s8.jpg",
+            "id": 127
+        },
+        {
+            "name": "Samsung Galaxy Watch 5",
+            "price": 329,
+            "category": "Smartwatch",
+            "image": "images/galaxy_watch_5.jpg",
+            "id": 128
+        },
+        {
+            "name": "Garmin Venu 2 Plus",
+            "price": 449,
+            "category": "Smartwatch",
+            "image": "images/garmin_venu_2.jpg",
+            "id": 129
+        },
+        {
+            "name": "Fossil Gen 6",
+            "price": 299,
+            "category": "Smartwatch",
+            "image": "images/fossil_gen_6.jpg",
+            "id": 130
+        },
+        {
+            "name": "Fitbit Versa 4",
+            "price": 249,
+            "category": "Smartwatch",
+            "image": "images/fitbit_versa_4.jpg",
+            "id": 131
+        },
+        {
+            "name": "Amazfit GTR 3 Pro",
+            "price": 199,
+            "category": "Smartwatch",
+            "image": "images/amazfit_gtr_3.jpg",
+            "id": 132
+        },
+        {
+            "name": "Huawei Watch GT 3",
+            "price": 249,
+            "category": "Smartwatch",
+            "image": "images/huawei_watch_gt_3.jpg",
+            "id": 133
+        },
+        {
+            "name": "TicWatch Pro 3 Ultra",
+            "price": 299,
+            "category": "Smartwatch",
+            "image": "images/ticwatch_pro_3_ultra.jpg",
+            "id": 134
+        },
+        {
+            "name": "Garmin Forerunner 955",
+            "price": 499,
+            "category": "Smartwatch",
+            "image": "images/garmin_forerunner_955.jpg",
+            "id": 135
+        },
+        {
+            "name": "Apple Watch SE (2022)",
+            "price": 249,
+            "category": "Smartwatch",
+            "image": "images/apple_watch_se_2022.jpg",
+            "id": 136
+        },
+        {
+            "name": "Samsung Galaxy Watch 4 Classic",
+            "price": 349,
+            "category": "Smartwatch",
+            "image": "images/galaxy_watch_4_classic.jpg",
+            "id": 137
+        },
+        {
+            "name": "Garmin Instinct 2 Solar",
+            "price": 399,
+            "category": "Smartwatch",
+            "image": "images/garmin_instinct_2_solar.jpg",
+            "id": 138
+        },
+        {
+            "name": "Fossil Hybrid HR",
+            "price": 199,
+            "category": "Smartwatch",
+            "image": "images/fossil_hybrid_hr.jpg",
+            "id": 139
+        },
+        {
+            "name": "Fitbit Sense 2",
+            "price": 299,
+            "category": "Smartwatch",
+            "image": "images/fitbit_sense_2.jpg",
+            "id": 140
+        },
+        {
+            "name": "Amazfit T-Rex 2",
+            "price": 229,
+            "category": "Smartwatch",
+            "image": "images/amazfit_trex_2.jpg",
+            "id": 141
+        },
+        {
+            "name": "Xiaomi Watch S1 Pro",
+            "price": 249,
+            "category": "Smartwatch",
+            "image": "images/xiaomi_watch_s1_pro.jpg",
+            "id": 142
+        },
+        {
+            "name": "Garmin Fenix 7X Sapphire Solar",
+            "price": 899,
+            "category": "Smartwatch",
+            "image": "images/garmin_fenix_7x_sapphire_solar.jpg",
+            "id": 143
+        },
+        {
+            "name": "Suunto 9 Peak",
+            "price": 499,
+            "category": "Smartwatch",
+            "image": "images/suunto_9_peak.jpg",
+            "id": 144
+        },
+        {
+            "name": "Mobvoi TicWatch E3",
+            "price": 169,
+            "category": "Smartwatch",
+            "image": "images/mobvoi_ticwatch_e3.jpg",
+            "id": 145
+        },
+        {
+            "name": "Garmin V\u00edvomove Sport",
+            "price": 179,
+            "category": "Smartwatch",
+            "image": "images/garmin_vivomove_sport.jpg",
+            "id": 146
+        },
+        {
+            "name": "Anker 20W Fast Charger",
+            "price": 29,
+            "category": "Accessories",
+            "image": "images/anker_fast_charger.jpg",
+            "id": 147
+        },
+        {
+            "name": "Logitech MX Master 3 Mouse",
+            "price": 99,
+            "category": "Accessories",
+            "image": "images/logitech_mx_master_3.jpg",
+            "id": 148
+        },
+        {
+            "name": "Razer BlackShark V2 Gaming Headset",
+            "price": 129,
+            "category": "Accessories",
+            "image": "images/razer_blackshark_v2.jpg",
+            "id": 149
+        },
+        {
+            "name": "Samsung 1TB Portable SSD",
+            "price": 149,
+            "category": "Accessories",
+            "image": "images/samsung_ssd_1tb.jpg",
+            "id": 150
+        },
+        {
+            "name": "Corsair K70 RGB Mechanical Keyboard",
+            "price": 159,
+            "category": "Accessories",
+            "image": "images/corsair_k70_rgb.jpg",
+            "id": 151
+        },
+        {
+            "name": "HyperX Cloud II Gaming Headset",
+            "price": 99,
+            "category": "Accessories",
+            "image": "images/hyperx_cloud_2.jpg",
+            "id": 152
+        },
+        {
+            "name": "Apple MagSafe Charger",
+            "price": 39,
+            "category": "Accessories",
+            "image": "images/apple_magsafe_charger.jpg",
+            "id": 153
+        },
+        {
+            "name": "Bose QuietComfort 45 Headphones",
+            "price": 299,
+            "category": "Accessories",
+            "image": "images/bose_qc45.jpg",
+            "id": 154
+        },
+        {
+            "name": "SteelSeries Apex Pro Keyboard",
+            "price": 199,
+            "category": "Accessories",
+            "image": "images/steelseries_apex_pro.jpg",
+            "id": 155
+        },
+        {
+            "name": "Jabra Elite 85h Noise Cancelling Headphones",
+            "price": 179,
+            "category": "Accessories",
+            "image": "images/jabra_elite_85h.jpg",
+            "id": 156
+        },
+        {
+            "name": "Sony WH-1000XM4 Wireless Headphones",
+            "price": 349,
+            "category": "Accessories",
+            "image": "images/sony_wh1000xm4.jpg",
+            "id": 157
+        },
+        {
+            "name": "Echo Dot (4th Gen) Smart Speaker",
+            "price": 49,
+            "category": "Accessories",
+            "image": "images/echo_dot_4.jpg",
+            "id": 158
+        },
+        {
+            "name": "Google Nest Mini",
+            "price": 49,
+            "category": "Accessories",
+            "image": "images/google_nest_mini.jpg",
+            "id": 159
+        },
+        {
+            "name": "Roku Streaming Stick 4K",
+            "price": 39,
+            "category": "Accessories",
+            "image": "images/roku_streaming_stick.jpg",
+            "id": 160
+        },
+        {
+            "name": "Belkin 3-in-1 Wireless Charger",
+            "price": 119,
+            "category": "Accessories",
+            "image": "images/belkin_wireless_charger.jpg",
+            "id": 161
+        },
+        {
+            "name": "Samsung T7 Touch SSD 1TB",
+            "price": 179,
+            "category": "Accessories",
+            "image": "images/samsung_t7_touch.jpg",
+            "id": 162
+        },
+        {
+            "name": "Elgato Stream Deck Mini",
+            "price": 89,
+            "category": "Accessories",
+            "image": "images/elgato_stream_deck_mini.jpg",
+            "id": 163
+        },
+        {
+            "name": "GoPro HERO 10 Action Camera",
+            "price": 399,
+            "category": "Accessories",
+            "image": "images/gopro_hero_10.jpg",
+            "id": 164
+        },
+        {
+            "name": "Nintendo Switch Pro Controller",
+            "price": 69,
+            "category": "Accessories",
+            "image": "images/nintendo_pro_controller.jpg",
+            "id": 165
+        },
+        {
+            "name": "Amazon Fire TV Stick 4K Max",
+            "price": 54,
+            "category": "Accessories",
+            "image": "images/fire_tv_stick.jpg",
+            "id": 166
+        },
+        {
+            "name": "Apple AirTag (4-Pack)",
+            "price": 89,
+            "category": "Accessories",
+            "image": "images/apple_airtag.jpg",
+            "id": 167
+        },
+        {
+            "name": "Anker 10,000mAh Power Bank",
+            "price": 39,
+            "category": "Accessories",
+            "image": "images/anker_powerbank.jpg",
+            "id": 168
+        },
+        {
+            "name": "Sandisk 128GB Ultra MicroSD Card",
+            "price": 24,
+            "category": "Accessories",
+            "image": "images/sandisk_128gb.jpg",
+            "id": 169
+        },
+        {
+            "name": "Microsoft Xbox Elite Wireless Controller Series 2",
+            "price": 179,
+            "category": "Accessories",
+            "image": "images/xbox_elite_controller.jpg",
+            "id": 170
+        },
+        {
+            "name": "Logitech G Pro X Wireless Gaming Headset",
+            "price": 229,
+            "category": "Accessories",
+            "image": "images/logitech_g_pro_x.jpg",
+            "id": 171
+        },
+        {
+            "name": "TP-Link AX1800 Wi-Fi 6 Router",
+            "price": 79,
+            "category": "Accessories",
+            "image": "images/tplink_wifi6.jpg",
+            "id": 172
+        },
+        {
+            "name": "Apple Lightning to USB-C Cable",
+            "price": 19,
+            "category": "Accessories",
+            "image": "images/apple_lightning_usb_c.jpg",
+            "id": 173
+        },
+        {
+            "name": "Eero Pro Mesh Wi-Fi System",
+            "price": 399,
+            "category": "Accessories",
+            "image": "images/eero_mesh_wifi.jpg",
+            "id": 174
+        },
+        {
+            "name": "Sony PlayStation 5 DualSense Controller",
+            "price": 69,
+            "category": "Accessories",
+            "image": "images/ps5_dualsense.jpg",
+            "id": 175
+        }
+    ]
+}

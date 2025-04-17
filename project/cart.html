@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElectroGadget | Cart</title>
+  <link rel="stylesheet" href="files/style.css" type="text/css"/>
+  <link rel="stylesheet" href="files/cart.css" type="text/css">
+  <!-- jQuery is loaded from CDN -->
+  <script src="files/jquery-3.6.0.min.js"></script>
+  
+</head>
+<body>
+
+  <div id="loader" class="loader"></div>
+  
+  <header>
+    <div class="container header-flex">
+      <h1 class="site-name">ElectroGadget</h1>
+      <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+      </div>
+      <nav>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+  
+  
+  <section class="container">
+    <!-- Shopping Cart -->
+    <div class="inline-row">
+      <div class="inline-col col-8">
+        <div class="cart">
+          <h2>Shopping Cart</h2>
+          <div class="back-to-shop">
+            <a href="products.html" class="text-muted">&larr; Back to shop</a>
+          </div>
+        </div>
+      </div>
+      <!-- Summary -->
+      <div class="inline-col col-4">
+        <div class="summary rounded">
+          <h3>Summary</h3>
+          <hr>
+          <div class="inline-row">
+            <div class="inline-col col-5">ITEMS #<span id="item_qty"></span></div>
+            <div class="inline-col col-7 text-end" id="sub_total">3</div>
+          </div>
+          <form action="index.html" id="shipping" method="post">
+          <p>SHIPPING</p>
+          <select class="form-select" name="delivery" id="delivery">
+            <option value="5">Standard - $5.00</option>
+            <option value="10">Express - $10.00</option>
+          </select>
+          <p>Your name</p>
+          <input type="hidden" name="total">
+          <input type="text" class="form-control" name="full_name" placeholder="Enter your Full Name" required>
+          <p>Your Phone Number</p>
+          <input type="text" class="form-control" name="phone" placeholder="Enter your Phone Number"required>
+          <p>Your Email</p>
+          <input type="email" class="form-control" name="email" placeholder="Enter your Email" required>
+          <p>Your Address</p>
+          <textarea class="form-control" name="address" placeholder="Enter your address"></textarea>
+          <hr>
+          <div class="inline-row">
+            <div class="inline-col col-5">TOTAL PRICE</div>
+            <div class="inline-col col-7 text-end" id="total">$0.00</div>
+          </div>
+          <button class="btn btn-dark" type="submit">CHECKOUT</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer></footer>
+
+  <script>
+    // Load header and footer using jQuery
+    $(document).ready(function(){
+      $("footer").load("files/footer.html"); 
+    });
+  </script>
+  <script src="files/main.js"></script>
+  <script src="files/cart.js"></script>
+  <script src="files/carts.js"></script>
+</body>
+</html>

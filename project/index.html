@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElectroGadget | Home</title>
+  <link rel="stylesheet" href="files/style.css" type="text/css"/>
+  <link rel="stylesheet" href="files/home.css" type="text/css">
+  <!-- jQuery is loaded from CDN -->
+  <script src="files/jquery-3.6.0.min.js"></script>
+  
+</head>
+<body>
+
+  <div id="loader" class="loader"></div>
+  
+  <header>
+    <div class="container header-flex">
+      <h1 class="site-name">ElectroGadget</h1>
+      <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+      </div>
+      <nav>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </nav>
+      <!-- Cart Icon with Count Badge -->
+      <div class="cart-icon" id="cart-icon">
+      <span class="cart-text">Cart</span>
+      <span class="cart-count" id="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Your One-Stop Shop for Electronics</h2>
+      <p>Find the best deals on chargers, mobiles, laptops, accessories, and more!</p>
+      <a href="products.html" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="product-categories">
+    <div class="container" style="text-align: center;">
+      <h2 class="section-title">Shop by Category</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/mobile.jpg" alt="Mobile Phones">
+          <h3>Mobiles</h3>
+          <p>Latest smartphones from top brands.</p>
+        </div>
+        <div class="product-card">
+          <img src="images/laptop.jpg" alt="Laptops">
+          <h3>Laptops</h3>
+          <p>Powerful laptops for work and play.</p>
+        </div>
+        <div class="product-card">
+          <img src="images/accessories.jpg" alt="Accessories">
+          <h3>Accessories</h3>
+          <p>Chargers, cases, headphones, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-products">
+    <div class="container" style="text-align: center;">
+      <h2 class="section-title">Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/earbuds.jpg" alt="Wireless Earbuds">
+          <h3>Wireless Earbuds</h3>
+          <p>High-quality sound with Bluetooth connectivity. Only at $299</p>
+          <button class="btn add-to-cart" data-product="{&quot;name&quot;:&quot;Sony WF-1000XM5&quot;,&quot;price&quot;:299,&quot;category&quot;:&quot;Earbuds&quot;,&quot;image&quot;:&quot;images/sony_wf_1000xm5.jpg&quot;,&quot;id&quot;:9}">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/smartwatch.jpg" alt="Smartwatch">
+          <h3>Smartwatch</h3>
+          <p>Stay connected with fitness tracking features. Only at $399</p>
+          <button class="btn add-to-cart" data-product="{&quot;name&quot;:&quot;Apple Watch Series 8&quot;,&quot;price&quot;:399,&quot;category&quot;:&quot;Smartwatch&quot;,&quot;image&quot;:&quot;images/apple_watch_s8.jpg&quot;,&quot;id&quot;:5}">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/tablet.jpg" alt="Tablet">
+          <h3>Tablet</h3>
+          <p>Lightweight design with powerful performance. Only at $599</p>
+          <button class="btn add-to-cart" data-product="{&quot;name&quot;:&quot;Apple iPad Air&quot;,&quot;price&quot;:599,&quot;category&quot;:&quot;Tablet&quot;,&quot;image&quot;:&quot;images/ipad_air.jpg&quot;,&quot;id&quot;:1}">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container" style="text-align: center;">
+      <h2 class="section-title">Why Choose Us?</h2>
+      <div class="feature-list">
+        <div class="feature">
+          <h3>⭐ Top Brands</h3>
+          <p>We stock products from leading global brands.</p>
+        </div>
+        <div class="feature">
+          <h3>🚚 Fast Delivery</h3>
+          <p>Quick and reliable shipping to your doorstep.</p>
+        </div>
+        <div class="feature">
+          <h3>🔒 Secure Payments</h3>
+          <p>Multiple payment options with strong encryption.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="cart-modal" class="cart-modal"></div>
+
+  <footer></footer>
+
+  <script>
+    // Load header and footer using jQuery
+    $(document).ready(function(){
+      $("div#cart-modal").load("files/mini_cart.html");
+      $("footer").load("files/footer.html"); 
+    });
+  </script>
+  <script src="files/main.js"></script>
+  <script src="files/cart.js"></script>
+</body>
+</html>

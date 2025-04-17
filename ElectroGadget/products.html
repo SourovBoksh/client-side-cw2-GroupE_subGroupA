@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | ElectroGadget</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="main.js"></script>
+  <link rel="stylesheet" href="products.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-flex">
+      <h1 class="site-name">ElectroGadget</h1>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html" class="active">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="cart-icon" id="cart-icon">
+        <span class="cart-text">Cart</span>
+        <span class="cart-count" id="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="product-categories" style="text-align: center;">
+      <div class="container">
+        <h2 class="section-title">All Products</h2>
+        
+        <div class="product-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="mobiles">Mobiles</button>
+          <button class="filter-btn" data-filter="laptops">Laptops</button>
+          <button class="filter-btn" data-filter="accessories">Accessories</button>
+        </div>
+        
+        <div class="product-grid">
+          <!-- Mobiles -->
+          <div class="product-card" data-category="mobiles">
+            <span class="highlight-badge">New</span>
+            <img src="images/15pro.webp" alt="Smartphone">
+            <h3>iPhone 15 Pro</h3>
+            <p>Latest Apple smartphone with advanced features.</p>
+            <p class="product-price">£999.99</p>
+            <button class="add-to-cart-btn" data-id="4" data-name="iPhone 15 Pro" data-price="999.99" data-img="images/phone.gif">Add to Cart</button>
+          </div>
+          
+          <div class="product-card" data-category="mobiles">
+            <img src="images/s23u.jpg" alt="Smartphone">
+            <h3>Samsung Galaxy S23</h3>
+            <p>Powerful Android smartphone with excellent camera.</p>
+            <p class="product-price">£899.99</p>
+            <button class="add-to-cart-btn" data-id="5" data-name="Samsung Galaxy S23" data-price="899.99" data-img="images/phone.gif">Add to Cart</button>
+          </div>
+          
+          <div class="product-card" data-category="mobiles">
+            <span class="highlight-badge">Sale</span>
+            <img src="images/pixel7.webp" alt="Smartphone">
+            <h3>Google Pixel 7</h3>
+            <p>Pure Android experience with outstanding camera quality.</p>
+            <p class="product-price">£699.99</p>
+            <button class="add-to-cart-btn" data-id="6" data-name="Google Pixel 7" data-price="699.99" data-img="images/phone.gif">Add to Cart</button>
+          </div>
+          
+          <!-- Laptops -->
+          <div class="product-card" data-category="laptops">
+            <span class="highlight-badge">New</span>
+            <img src="images/mcbook.webp" alt="Laptop">
+            <h3>MacBook Pro 14"</h3>
+            <p>Powerful laptop with M2 chip for professionals.</p>
+            <p class="product-price">£1499.99</p>
+            <button class="add-to-cart-btn" data-id="7" data-name="MacBook Pro 14" data-price="1499.99" data-img="images/laptop.gif">Add to Cart</button>
+          </div>
+          
+          <div class="product-card" data-category="laptops">
+            <img src="images/dell.webp" alt="Laptop">
+            <h3>Dell XPS 13</h3>
+            <p>Ultra-thin Windows laptop with InfinityEdge display.</p>
+            <p class="product-price">£1299.99</p>
+            <button class="add-to-cart-btn" data-id="8" data-name="Dell XPS 13" data-price="1299.99" data-img="images/laptop.gif">Add to Cart</button>
+          </div>
+          
+          <div class="product-card" data-category="laptops">
+            <span class="highlight-badge">Sale</span>
+            <img src="images/hp.webp" alt="Laptop">
+            <h3>HP Spectre x360</h3>
+            <p>Convertible laptop with touchscreen and stylus support.</p>
+            <p class="product-price">£1199.99</p>
+            <button class="add-to-cart-btn" data-id="9" data-name="HP Spectre x360" data-price="1199.99" data-img="images/laptop.gif">Add to Cart</button>
+          </div>
+          
+          <!-- Accessories -->
+          <div class="product-card" data-category="accessories">
+            <img src="images/wc.webp" alt="Accessories">
+            <h3>Wireless Charger</h3>
+            <p>Fast wireless charging pad for smartphones.</p>
+            <p class="product-price">£39.99</p>
+            <button class="add-to-cart-btn" data-id="10" data-name="Wireless Charger" data-price="39.99" data-img="images/acsrs.gif">Add to Cart</button>
+          </div>
+          
+          <div class="product-card" data-category="accessories">
+            <img src="images/bs.webp" alt="Accessories">
+            <h3>Bluetooth Speaker</h3>
+            <p>Portable speaker with rich sound and long battery life.</p>
+            <p class="product-price">£79.99</p>
+            <button class="add-to-cart-btn" data-id="11" data-name="Bluetooth Speaker" data-price="79.99" data-img="images/acsrs.gif">Add to Cart</button>
+          </div>
+          
+          <div class="product-card" data-category="accessories">
+            <span class="highlight-badge">New</span>
+            <img src="images/pb.jpg" alt="Accessories">
+            <h3>Power Bank</h3>
+            <p>20,000mAh capacity with fast charging support.</p>
+            <p class="product-price">£49.99</p>
+            <button class="add-to-cart-btn" data-id="12" data-name="Power Bank" data-price="49.99" data-img="images/acsrs.gif">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="floating-dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode">
+    <span class="dark-mode-icon">🌙</span>
+    <span class="light-mode-icon">☀️</span>
+  </div>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ElectroGadget. All rights reserved.</p>
+      <p>Email: support@electrogadget.com | Phone: +44 123 456 7890</p>
+      <p>123 Tech Street, Manchester, UK</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | ElectroGadget</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="main.js"></script>
+  <link rel="stylesheet" href="about.css" />
+  
+</head>
+<body>
+  <header>
+    <div class="container header-flex">
+      <h1 class="site-name">ElectroGadget</h1>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="cart-icon" id="cart-icon">
+        <span class="cart-text">Cart</span>
+        <span class="cart-count" id="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+<section class="about-section">
+  <div class="container">
+    <h2 class="section-title">About ElectroGadget</h2>
+    <div class="about-wrapper">
+      <div class="about-text-box">
+        <p>
+          Founded in 2025, ElectroGadget is a leading online retailer of cutting-edge electronics, 
+          dedicated to bringing you the latest tech with unparalleled service.
+        </p>
+        <p>
+          Our mission is to simplify technology by offering rigorously tested products, 
+          expert advice, and hassle-free returns. We partner directly with top brands 
+          to ensure authenticity and competitive pricing.
+        </p>
+        <h3 class="about-subtitle">Our Values</h3>
+        <ul class="about-values">
+          <li><strong>Innovation:</strong> Curating tomorrow's tech today</li>
+          <li><strong>Integrity:</strong> No compromises on quality</li>
+          <li><strong>Support:</strong> 24/7 UK-based customer care</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="team-section">
+  <div class="container">
+    <h2 class="section-title">Meet Our Team</h2>
+    <div class="team-grid">
+      <!-- Team Member 1 -->
+      <div class="team-card">
+        <div class="team-img-container">
+          <img src="images/team/sourov.jpg" alt="Sourov Boksh - CEO" class="team-img">
+          <div class="team-social">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <h3>Sourov Boksh</h3>
+        <p class="team-role">CEO & Founder</p>
+        <p class="team-bio">Tech entrepreneur with 5+ years in consumer electronics.</p>
+      </div>
+
+      <!-- Team Member 2 -->
+      <div class="team-card">
+        <div class="team-img-container">
+          <img src="images/team/misha.webp" alt="Mahezabin Misha - CTO" class="team-img">
+          <div class="team-social">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Mahezabin Misha</h3>
+        <p class="team-role">Chief Technology Officer</p>
+        <p class="team-bio">Hardware specialist and supply chain wizard.</p>
+      </div>
+
+      <!-- Team Member 3 -->
+      <div class="team-card">
+        <div class="team-img-container">
+          <img src="images/team/seyam.jpg" alt="Seyam - CMO" class="team-img">
+          <div class="team-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <h3>Seyam</h3>
+        <p class="team-role">Chief Marketing Officer</p>
+        <p class="team-bio">Brand strategist focused on authentic tech storytelling.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+  <div class="floating-dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode">
+    <span class="dark-mode-icon">🌙</span>
+    <span class="light-mode-icon">☀️</span>
+  </div>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ElectroGadget. All rights reserved.</p>
+      <p>Email: support@electrogadget.com | Phone: +44 123 456 7890</p>
+      <p>123 Tech Street, Manchester, UK</p>
+    </div>
+  </footer>
+</body>
+</html>

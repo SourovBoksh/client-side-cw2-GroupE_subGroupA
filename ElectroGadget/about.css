@@ -1,0 +1,164 @@
+/* Modern Typography */
+.section-title {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+  color: #111827;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #10b981;
+  margin: 15px auto 0;
+}
+
+.about-subtitle {
+  font-size: 1.4rem;
+  color: #10b981;
+  margin: 30px 0 15px;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+
+.about-values {
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.about-values li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+}
+
+.about-values li::before {
+  content: "•";
+  color: #10b981;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -3px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .about-text-box {
+    padding: 25px;
+    margin: 0 15px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
+/* Team Section */
+.team-section {
+  padding: 60px 0;
+  background: #f9fafb00;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.team-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(16, 185, 129, 0.1);
+}
+
+.team-img-container {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #e5e7eb;
+}
+
+.team-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-social {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.team-card:hover .team-social {
+  bottom: 10px;
+  opacity: 1;
+}
+
+.team-social a {
+  color: white;
+  background: #10b981;
+  margin: 0 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.team-social a:hover {
+  background: #0d9e6e;
+  transform: scale(1.1);
+}
+
+.team-role {
+  color: #10b981;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.team-bio {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-top: 10px;
+}
+
+/* Dark Mode */
+body.dark-mode .team-section {
+  background: #1a1a1a;
+}
+
+body.dark-mode .team-card {
+  background: #1e1e1e;
+  border: 1px solid #333;
+}
+
+body.dark-mode .team-img-container {
+  border-color: #444;
+}
+
+body.dark-mode .team-bio {
+  color: #d1d5db;
+}
+
+/* Font Awesome Icons (add to head) */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
